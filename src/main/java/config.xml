@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:context="http://www.springFramework.org/schema/context"
+ xmlns:p="http://www.springFramework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+  
+  <bean class="com.springcore.Student" name="student1" id="student1" p:StudentId="1212"  p:StudentName="manchu" p:StudentAdress="pachambala" />
+ 
+  <bean class="com.springcore.Student" name="student2" id="student2" p:StudentId="1313" p:StudentName="mahir" p:StudentAdress="mumbai" />
+  
+ 
+ </beans>
